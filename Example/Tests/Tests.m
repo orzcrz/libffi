@@ -1,6 +1,6 @@
 //
-//  libffiTests.m
-//  libffiTests
+//  OLibffiTests.m
+//  OLibffiTests
 //
 //  Created by 32827193 on 11/18/2020.
 //  Copyright (c) 2020 32827193. All rights reserved.

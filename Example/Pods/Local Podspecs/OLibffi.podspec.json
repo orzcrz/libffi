@@ -1,0 +1,22 @@
+{
+  "name": "OLibffi",
+  "version": "0.1.0",
+  "summary": "A short description of OLibffi.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/32827193/OLibffi",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "32827193": "runze.crz@alibaba-inc.com"
+  },
+  "source": {
+    "git": "https://github.com/32827193/OLibffi.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "OLibffi/Classes/**/*"
+}

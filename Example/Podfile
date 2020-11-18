@@ -1,6 +1,6 @@
 use_frameworks!
-target 'libffi_Tests' do
-  pod 'libffi', :path => '../'
+target 'OLibffi_Tests' do
+  pod 'OLibffi', :path => '../'
   
   
 end
