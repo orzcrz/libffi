@@ -1,0 +1,6 @@
+use_frameworks!
+target 'libffi_Tests' do
+  pod 'libffi', :path => '../'
+  
+  
+end
