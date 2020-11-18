@@ -1,6 +1,5 @@
 # OLibffi
 
-[![CI Status](https://img.shields.io/travis/32827193/OLibffi.svg?style=flat)](https://travis-ci.org/32827193/OLibffi)
 [![Version](https://img.shields.io/cocoapods/v/OLibffi.svg?style=flat)](https://cocoapods.org/pods/OLibffi)
 [![License](https://img.shields.io/cocoapods/l/OLibffi.svg?style=flat)](https://cocoapods.org/pods/OLibffi)
 [![Platform](https://img.shields.io/cocoapods/p/OLibffi.svg?style=flat)](https://cocoapods.org/pods/OLibffi)
@@ -22,7 +21,7 @@ pod 'OLibffi'
 
 ## Author
 
-32827193, runze.crz@alibaba-inc.com
+Ranger, crzorz@outlook.com
 
 ## License
 
