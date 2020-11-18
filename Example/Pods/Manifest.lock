@@ -1,0 +1,16 @@
+PODS:
+  - libffi (0.1.0)
+
+DEPENDENCIES:
+  - libffi (from `../`)
+
+EXTERNAL SOURCES:
+  libffi:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  libffi: 0c95f1d00005c9c1d66fdfd9173cdd77d2fe248a
+
+PODFILE CHECKSUM: 5c379f170607f62e0f8c082b091f75526b8bf961
+
+COCOAPODS: 1.9.1

@@ -1,0 +1,22 @@
+{
+  "name": "libffi",
+  "version": "0.1.0",
+  "summary": "A short description of libffi.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/32827193/libffi",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "32827193": "runze.crz@alibaba-inc.com"
+  },
+  "source": {
+    "git": "https://github.com/32827193/libffi.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "libffi/Classes/**/*"
+}
