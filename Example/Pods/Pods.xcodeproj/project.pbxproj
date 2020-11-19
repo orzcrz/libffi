@@ -12,16 +12,16 @@
 		517B5E1D32D21D9949AE263E6D39295C /* Pods-OLibffi_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9DD2F1262522599A812476388D9E960 /* Pods-OLibffi_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8EDEE40A7A15F52C2ECFE7C4235EF8C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		C51876FD38EE58637F27D11FD3059E5E /* Pods-OLibffi_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADF3116BF44BF6372D39C942C87FBCD /* Pods-OLibffi_Tests-dummy.m */; };
-		D278B35D2564DD2F00F972EA /* ffitarget_arm64.h in Headers */ = {isa = PBXBuildFile; fileRef = D278B3532564DD2F00F972EA /* ffitarget_arm64.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D278B35E2564DD2F00F972EA /* ffitarget.h in Headers */ = {isa = PBXBuildFile; fileRef = D278B3542564DD2F00F972EA /* ffitarget.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D278B35F2564DD2F00F972EA /* ffitarget_x86_64.h in Headers */ = {isa = PBXBuildFile; fileRef = D278B3552564DD2F00F972EA /* ffitarget_x86_64.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D278B3602564DD2F00F972EA /* ffitarget_armv7.h in Headers */ = {isa = PBXBuildFile; fileRef = D278B3562564DD2F00F972EA /* ffitarget_armv7.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D278B3612564DD2F00F972EA /* ffi_x86_64.h in Headers */ = {isa = PBXBuildFile; fileRef = D278B3572564DD2F00F972EA /* ffi_x86_64.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D278B3622564DD2F00F972EA /* ffi_armv7.h in Headers */ = {isa = PBXBuildFile; fileRef = D278B3582564DD2F00F972EA /* ffi_armv7.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D278B3632564DD2F00F972EA /* ffi.h in Headers */ = {isa = PBXBuildFile; fileRef = D278B3592564DD2F00F972EA /* ffi.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D278B3642564DD2F00F972EA /* ffi_arm64.h in Headers */ = {isa = PBXBuildFile; fileRef = D278B35A2564DD2F00F972EA /* ffi_arm64.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D278B3652564DD2F00F972EA /* libffi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D278B35B2564DD2F00F972EA /* libffi.a */; };
 		D278B3662564DD2F00F972EA /* OLibffi.h in Headers */ = {isa = PBXBuildFile; fileRef = D278B35C2564DD2F00F972EA /* OLibffi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D278B51525654FE700F972EA /* ffitarget_arm64.h in Headers */ = {isa = PBXBuildFile; fileRef = D278B50D25654FE700F972EA /* ffitarget_arm64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D278B51625654FE700F972EA /* ffitarget.h in Headers */ = {isa = PBXBuildFile; fileRef = D278B50E25654FE700F972EA /* ffitarget.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D278B51725654FE700F972EA /* ffitarget_x86_64.h in Headers */ = {isa = PBXBuildFile; fileRef = D278B50F25654FE700F972EA /* ffitarget_x86_64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D278B51825654FE700F972EA /* ffitarget_armv7.h in Headers */ = {isa = PBXBuildFile; fileRef = D278B51025654FE700F972EA /* ffitarget_armv7.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D278B51925654FE700F972EA /* ffi_x86_64.h in Headers */ = {isa = PBXBuildFile; fileRef = D278B51125654FE700F972EA /* ffi_x86_64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D278B51A25654FE700F972EA /* ffi_armv7.h in Headers */ = {isa = PBXBuildFile; fileRef = D278B51225654FE700F972EA /* ffi_armv7.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D278B51B25654FE700F972EA /* ffi.h in Headers */ = {isa = PBXBuildFile; fileRef = D278B51325654FE700F972EA /* ffi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D278B51C25654FE700F972EA /* ffi_arm64.h in Headers */ = {isa = PBXBuildFile; fileRef = D278B51425654FE700F972EA /* ffi_arm64.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E1A1033D13971528AC8795785556CB44 /* OLibffi-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7276C804CBDF2EA32DF0EE98C2AA558B /* OLibffi-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -55,16 +55,16 @@
 		B9DD2F1262522599A812476388D9E960 /* Pods-OLibffi_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OLibffi_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C210CE0D38AECCDAFC394E5DEC68E18B /* Pods-OLibffi_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OLibffi_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D247D67D7ED427F9CD90512525060173 /* OLibffi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OLibffi.debug.xcconfig; sourceTree = "<group>"; };
-		D278B3532564DD2F00F972EA /* ffitarget_arm64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_arm64.h; sourceTree = "<group>"; };
-		D278B3542564DD2F00F972EA /* ffitarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget.h; sourceTree = "<group>"; };
-		D278B3552564DD2F00F972EA /* ffitarget_x86_64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_x86_64.h; sourceTree = "<group>"; };
-		D278B3562564DD2F00F972EA /* ffitarget_armv7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_armv7.h; sourceTree = "<group>"; };
-		D278B3572564DD2F00F972EA /* ffi_x86_64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_x86_64.h; sourceTree = "<group>"; };
-		D278B3582564DD2F00F972EA /* ffi_armv7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_armv7.h; sourceTree = "<group>"; };
-		D278B3592564DD2F00F972EA /* ffi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi.h; sourceTree = "<group>"; };
-		D278B35A2564DD2F00F972EA /* ffi_arm64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_arm64.h; sourceTree = "<group>"; };
 		D278B35B2564DD2F00F972EA /* libffi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libffi.a; path = OLibffi/libffi.a; sourceTree = "<group>"; };
 		D278B35C2564DD2F00F972EA /* OLibffi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OLibffi.h; path = OLibffi/OLibffi.h; sourceTree = "<group>"; };
+		D278B50D25654FE700F972EA /* ffitarget_arm64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_arm64.h; sourceTree = "<group>"; };
+		D278B50E25654FE700F972EA /* ffitarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget.h; sourceTree = "<group>"; };
+		D278B50F25654FE700F972EA /* ffitarget_x86_64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_x86_64.h; sourceTree = "<group>"; };
+		D278B51025654FE700F972EA /* ffitarget_armv7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffitarget_armv7.h; sourceTree = "<group>"; };
+		D278B51125654FE700F972EA /* ffi_x86_64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_x86_64.h; sourceTree = "<group>"; };
+		D278B51225654FE700F972EA /* ffi_armv7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_armv7.h; sourceTree = "<group>"; };
+		D278B51325654FE700F972EA /* ffi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi.h; sourceTree = "<group>"; };
+		D278B51425654FE700F972EA /* ffi_arm64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi_arm64.h; sourceTree = "<group>"; };
 		D49DF7F29137BA314DCAA64E9BA2709B /* OLibffi.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = OLibffi.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E2A273A631F19D8A52A54896049AACD1 /* Pods-OLibffi_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OLibffi_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E86197832AF60CE60E9C1365077CA7C0 /* Pods-OLibffi_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OLibffi_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -131,7 +131,7 @@
 		A855E362A2C7BDC3869B38AA9C0ADD05 /* OLibffi */ = {
 			isa = PBXGroup;
 			children = (
-				D278B3522564DD2F00F972EA /* include */,
+				D278B50C25654FE700F972EA /* include */,
 				D278B35B2564DD2F00F972EA /* libffi.a */,
 				D278B35C2564DD2F00F972EA /* OLibffi.h */,
 				082AAF0E6CCF8191F1EC5B7867A171C6 /* Pod */,
@@ -168,17 +168,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D278B3522564DD2F00F972EA /* include */ = {
+		D278B50C25654FE700F972EA /* include */ = {
 			isa = PBXGroup;
 			children = (
-				D278B3532564DD2F00F972EA /* ffitarget_arm64.h */,
-				D278B3542564DD2F00F972EA /* ffitarget.h */,
-				D278B3552564DD2F00F972EA /* ffitarget_x86_64.h */,
-				D278B3562564DD2F00F972EA /* ffitarget_armv7.h */,
-				D278B3572564DD2F00F972EA /* ffi_x86_64.h */,
-				D278B3582564DD2F00F972EA /* ffi_armv7.h */,
-				D278B3592564DD2F00F972EA /* ffi.h */,
-				D278B35A2564DD2F00F972EA /* ffi_arm64.h */,
+				D278B50D25654FE700F972EA /* ffitarget_arm64.h */,
+				D278B50E25654FE700F972EA /* ffitarget.h */,
+				D278B50F25654FE700F972EA /* ffitarget_x86_64.h */,
+				D278B51025654FE700F972EA /* ffitarget_armv7.h */,
+				D278B51125654FE700F972EA /* ffi_x86_64.h */,
+				D278B51225654FE700F972EA /* ffi_armv7.h */,
+				D278B51325654FE700F972EA /* ffi.h */,
+				D278B51425654FE700F972EA /* ffi_arm64.h */,
 			);
 			name = include;
 			path = OLibffi/include;
@@ -223,15 +223,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				D278B3662564DD2F00F972EA /* OLibffi.h in Headers */,
-				D278B3632564DD2F00F972EA /* ffi.h in Headers */,
-				D278B35D2564DD2F00F972EA /* ffitarget_arm64.h in Headers */,
-				D278B3622564DD2F00F972EA /* ffi_armv7.h in Headers */,
-				D278B3612564DD2F00F972EA /* ffi_x86_64.h in Headers */,
-				D278B35E2564DD2F00F972EA /* ffitarget.h in Headers */,
-				D278B35F2564DD2F00F972EA /* ffitarget_x86_64.h in Headers */,
-				D278B3602564DD2F00F972EA /* ffitarget_armv7.h in Headers */,
-				D278B3642564DD2F00F972EA /* ffi_arm64.h in Headers */,
+				D278B51925654FE700F972EA /* ffi_x86_64.h in Headers */,
+				D278B51A25654FE700F972EA /* ffi_armv7.h in Headers */,
+				D278B51C25654FE700F972EA /* ffi_arm64.h in Headers */,
+				D278B51625654FE700F972EA /* ffitarget.h in Headers */,
 				1EAFD620822C56E19ABDC47F40D9E2A6 /* OLibffi-umbrella.h in Headers */,
+				D278B51725654FE700F972EA /* ffitarget_x86_64.h in Headers */,
+				D278B51B25654FE700F972EA /* ffi.h in Headers */,
+				D278B51525654FE700F972EA /* ffitarget_arm64.h in Headers */,
+				D278B51825654FE700F972EA /* ffitarget_armv7.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,13 +403,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = YES;
 				EXCLUDED_ARCHS = i386;
 				GCC_PREFIX_HEADER = "Target Support Files/OLibffi/OLibffi-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/OLibffi/OLibffi-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
+				MACH_O_TYPE = mh_dylib;
 				MODULEMAP_FILE = "Target Support Files/OLibffi/OLibffi.modulemap";
 				PRODUCT_MODULE_NAME = OLibffi;
 				PRODUCT_NAME = OLibffi;
@@ -595,13 +596,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = YES;
 				EXCLUDED_ARCHS = i386;
 				GCC_PREFIX_HEADER = "Target Support Files/OLibffi/OLibffi-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/OLibffi/OLibffi-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
+				MACH_O_TYPE = mh_dylib;
 				MODULEMAP_FILE = "Target Support Files/OLibffi/OLibffi.modulemap";
 				PRODUCT_MODULE_NAME = OLibffi;
 				PRODUCT_NAME = OLibffi;

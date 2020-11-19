@@ -8,12 +8,14 @@ Pod::Spec.new do |s|
   s.author   = { 'crzorz' => 'crzorz@outlook.com' }
   s.source   = { :git => 'https://github.com/orzcrz/libffi.git', :branch => 'master' }
   
-  s.platform = :ios
-  s.ios.deployment_target = '10.0'
+  s.platform = :ios, '10.0'
   s.requires_arc = true
   
-  s.source_files = 'OLibffi/**/*'
-  
-  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 arm64 armv7' }
+  s.source_files = 'OLibffi/*.h', 'OLibffi/include/*.h'
+  s.vendored_libraries  = 'OLibffi/*.a'
+
+  s.pod_target_xcconfig = { 
+    'VALID_ARCHS' => 'x86_64 arm64 armv7',
+  }
 
 end
