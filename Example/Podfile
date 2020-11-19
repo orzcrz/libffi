@@ -1,5 +1,12 @@
 use_frameworks!
-target 'OLibffi_Tests' do
+
+target 'OCDemo' do
+  pod 'OLibffi', :path => '../'
+  
+  
+end
+
+target 'SwiftDemo' do
   pod 'OLibffi', :path => '../'
   
   

@@ -1,5 +1,5 @@
 PODS:
-  - OLibffi (0.1.0)
+  - OLibffi (3.3.0)
 
 DEPENDENCIES:
   - OLibffi (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  OLibffi: dbcb9509897043ee48f89c65027c34cc64e308c8
+  OLibffi: dad1e2a9c3f61c087f6a792e82fcfa81d44b7b48
 
-PODFILE CHECKSUM: 74835e2ecb709f0efd82b2deaf0ef8524f5b5294
+PODFILE CHECKSUM: 2586aed6db53f52d37962a32e765998cba447c1d
 
 COCOAPODS: 1.9.1

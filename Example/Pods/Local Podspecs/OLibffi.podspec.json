@@ -1,22 +1,26 @@
 {
   "name": "OLibffi",
-  "version": "0.1.0",
-  "summary": "A short description of OLibffi.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/32827193/OLibffi",
+  "version": "3.3.0",
+  "summary": "libffi for iOS.",
+  "homepage": "https://github.com/orzcrz/libffi",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "32827193": "runze.crz@alibaba-inc.com"
+    "crzorz": "crzorz@outlook.com"
   },
   "source": {
-    "git": "https://github.com/32827193/OLibffi.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/orzcrz/libffi.git",
+    "tag": "3.3.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
-  "source_files": "OLibffi/Classes/**/*"
+  "requires_arc": true,
+  "source_files": "OLibffi/*.h",
+  "vendored_libraries": "OLibffi/*.a",
+  "pod_target_xcconfig": {
+    "VALID_ARCHS": "x86_64 arm64"
+  }
 }
