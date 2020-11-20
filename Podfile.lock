@@ -2,15 +2,20 @@ PODS:
   - OLibffi (3.3.0)
 
 DEPENDENCIES:
-  - OLibffi (from `.`)
+  - "OLibffi (from `git@github.com:orzcrz/libffi.git`)"
 
 EXTERNAL SOURCES:
   OLibffi:
-    :path: "."
+    :git: "git@github.com:orzcrz/libffi.git"
+
+CHECKOUT OPTIONS:
+  OLibffi:
+    :commit: 6cf7932620cb3dff75809eb1ae181091aa68e343
+    :git: "git@github.com:orzcrz/libffi.git"
 
 SPEC CHECKSUMS:
   OLibffi: d9ebfd23f1f880af1ccece11fcfd083fe4271708
 
-PODFILE CHECKSUM: 3a653fb9c381b82f7781f1a5b8bc583f3804c671
+PODFILE CHECKSUM: 37cf38efae88aba8c680603cf080e5a33c751e59
 
 COCOAPODS: 1.9.1
