@@ -2,13 +2,22 @@
 //  OLibffi.h
 //  OLibffi
 //
-//  Created by TongDi on 2020/11/19.
+//  Created by TongDi on 2020/9/27.
+//  Copyright © 2020 ApisFlorea. All rights reserved.
 //
 
-#ifndef OLibffi_h
-#define OLibffi_h
+#import <Foundation/Foundation.h>
 
-#import <OLibffi/ffi.h>
-#import <OLibffi/ffitarget.h>
+//! Project version number for OLibffi.
+FOUNDATION_EXPORT double OLibffiVersionNumber;
 
-#endif /* OLibffi_h */
+//! Project version string for OLibffi.
+FOUNDATION_EXPORT const unsigned char OLibffiVersionString[];
+
+#include "ffi.h"
+#include "ffitarget.h"
+
+//#include <OLibffi/ffi.h>
+//#include <OLibffi/ffitarget.h>
+
+

@@ -1,6 +1,0 @@
-framework module OLibffi {
-  umbrella header "OLibffi-umbrella.h"
-
-  export *
-  module * { export * }
-}

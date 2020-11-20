@@ -11,8 +11,7 @@ Pod::Spec.new do |s|
   s.platform = :ios, '10.0'
   s.requires_arc = true
   
-  s.source_files = 'OLibffi/*.h'
-  s.vendored_libraries  = 'OLibffi/*.a'
+  s.vendored_frameworks = 'OLibffi/OLibffi.framework'
 
   s.pod_target_xcconfig = { 
     'VALID_ARCHS' => 'x86_64 arm64',
