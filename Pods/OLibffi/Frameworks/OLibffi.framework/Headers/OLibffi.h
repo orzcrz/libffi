@@ -17,4 +17,7 @@ FOUNDATION_EXPORT const unsigned char OLibffiVersionString[];
 #include "ffi.h"
 #include "ffitarget.h"
 
+//#include <OLibffi/ffi.h>
+//#include <OLibffi/ffitarget.h>
+
 
