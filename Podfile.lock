@@ -10,12 +10,12 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   OLibffi:
-    :commit: d42aad44a53dbcf31e03b62363ee91d77284ce61
+    :commit: d924866f1c9ca0bef347a179230162cad193c1da
     :git: "git@github.com:orzcrz/libffi.git"
 
 SPEC CHECKSUMS:
-  OLibffi: 9def3683d3ed3ccf04f46c3be8e16b4039b23232
+  OLibffi: b224c7f71cedbf5d10c50fe20c62662d44b422b8
 
-PODFILE CHECKSUM: 37cf38efae88aba8c680603cf080e5a33c751e59
+PODFILE CHECKSUM: a1e0954102b1c38a4364dbcc7bb20279d73dd51e
 
 COCOAPODS: 1.9.1

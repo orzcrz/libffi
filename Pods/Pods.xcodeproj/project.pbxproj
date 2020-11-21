@@ -41,28 +41,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		073206FD9E00FC4D45A2DFC3F3177892 /* ffitarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffitarget.h; path = Frameworks/OLibffi.framework/Headers/ffitarget.h; sourceTree = "<group>"; };
 		073D125C6FCCC08C0E469997BD26ACF4 /* libPods-SwiftDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SwiftDemo.a"; path = "libPods-SwiftDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ECD6F467A511D3D08856B42483AED66 /* Pods-OCDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		26BC4DC79BEFBE46BC6CB942A27C58FE /* Pods-OCDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OCDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		2B18CE1B7C2756F20330406561AF5D02 /* ffitarget_arm64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffitarget_arm64.h; path = Frameworks/OLibffi.framework/Headers/ffitarget_arm64.h; sourceTree = "<group>"; };
 		2D3CF5F367FF3D474B7A188F424EF8E4 /* Pods-SwiftDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		346C1BAD7227B82E897FDE1EE70FF4A8 /* OLibffi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OLibffi.release.xcconfig; sourceTree = "<group>"; };
-		358569D4D38E22F4D7034A158FB4EFE3 /* OLibffi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OLibffi.debug.xcconfig; sourceTree = "<group>"; };
-		3671A0607529C321D6E403B7B3C3CCB9 /* ffi_arm64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffi_arm64.h; path = Frameworks/OLibffi.framework/Headers/ffi_arm64.h; sourceTree = "<group>"; };
-		43C9E083C7DB99500C45BB64FCEC1C8F /* OLibffi.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OLibffi.framework; path = Frameworks/OLibffi.framework; sourceTree = "<group>"; };
 		43EE94A92C83D9DE1FD9608AA6B0BCA9 /* Pods-SwiftDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwiftDemo-dummy.m"; sourceTree = "<group>"; };
 		4B6B87FE9BD3CC58994C2327EEE8156E /* Pods-OCDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OCDemo-dummy.m"; sourceTree = "<group>"; };
 		513CFDCD162D7BF0033A72F72FF1488D /* Pods-OCDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OCDemo.release.xcconfig"; sourceTree = "<group>"; };
-		65DB34CB72D389775831556624DBC520 /* OLibffi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OLibffi.h; path = Frameworks/OLibffi.framework/Headers/OLibffi.h; sourceTree = "<group>"; };
-		6852F08AD8C6680DB7BDF382D17DAEAB /* ffi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffi.h; path = Frameworks/OLibffi.framework/Headers/ffi.h; sourceTree = "<group>"; };
 		76E85D600FD8505B195C6E4FEE8EADC5 /* Pods-OCDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OCDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9888B1B666713C7B177A012188BF8DFA /* ffi_x86_64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffi_x86_64.h; path = Frameworks/OLibffi.framework/Headers/ffi_x86_64.h; sourceTree = "<group>"; };
+		8CB061F712ADAA59EA9D3B268FDEE5B1 /* OLibffi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OLibffi.debug.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AFEB36F045529540DCE451FE0B2A6F04 /* Pods-SwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		B1935314E8F9C8909421CAF0F9582006 /* Pods-SwiftDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwiftDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		B8277FD9EA2581CA89F8C34931F37F6F /* libPods-OCDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-OCDemo.a"; path = "libPods-OCDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0BD092CD34666342ED0C1246066F818 /* ffitarget_x86_64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ffitarget_x86_64.h; path = Frameworks/OLibffi.framework/Headers/ffitarget_x86_64.h; sourceTree = "<group>"; };
+		CC6C5750838F495E293519354DC42C93 /* OLibffi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OLibffi.release.xcconfig; sourceTree = "<group>"; };
+		CD123C7A2CC8E0BFD973D9D3007CE9AE /* OLibffi.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OLibffi.framework; path = Frameworks/OLibffi.framework; sourceTree = "<group>"; };
 		E92CDC36723510DA82FAA22813BE6B15 /* Pods-SwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,6 +77,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1239642E64BD4BEA21F39B371113AFD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD123C7A2CC8E0BFD973D9D3007CE9AE /* OLibffi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		16188AFBADEFFBF96C0221222D28B71B /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -93,39 +94,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3EAEB1A0DB902464E34C1DD58DE18676 /* Frameworks */ = {
+		4884DA91753FE15FBCBB691AD520D02C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				43C9E083C7DB99500C45BB64FCEC1C8F /* OLibffi.framework */,
+				C92138D1927FE16E69D929A9B081AE30 /* OLibffi */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		438E7B43CE8A8205289330E68804ACEB /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				358569D4D38E22F4D7034A158FB4EFE3 /* OLibffi.debug.xcconfig */,
-				346C1BAD7227B82E897FDE1EE70FF4A8 /* OLibffi.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/OLibffi";
-			sourceTree = "<group>";
-		};
-		8D47289980D9022B26F8AE36E7E49D8F /* OLibffi */ = {
-			isa = PBXGroup;
-			children = (
-				6852F08AD8C6680DB7BDF382D17DAEAB /* ffi.h */,
-				3671A0607529C321D6E403B7B3C3CCB9 /* ffi_arm64.h */,
-				9888B1B666713C7B177A012188BF8DFA /* ffi_x86_64.h */,
-				073206FD9E00FC4D45A2DFC3F3177892 /* ffitarget.h */,
-				2B18CE1B7C2756F20330406561AF5D02 /* ffitarget_arm64.h */,
-				D0BD092CD34666342ED0C1246066F818 /* ffitarget_x86_64.h */,
-				65DB34CB72D389775831556624DBC520 /* OLibffi.h */,
-				3EAEB1A0DB902464E34C1DD58DE18676 /* Frameworks */,
-				438E7B43CE8A8205289330E68804ACEB /* Support Files */,
-			);
-			name = OLibffi;
-			path = OLibffi;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		8D53FB76A2A91E323D78EAF4B5AE94EE /* Pods-SwiftDemo */ = {
@@ -141,14 +115,6 @@
 			path = "Target Support Files/Pods-SwiftDemo";
 			sourceTree = "<group>";
 		};
-		94A2910CAB13841F6C9265988D8B6AD9 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8D47289980D9022B26F8AE36E7E49D8F /* OLibffi */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		A4C72304DDA2DE977AFE5129547F67D8 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,12 +124,22 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		C92138D1927FE16E69D929A9B081AE30 /* OLibffi */ = {
+			isa = PBXGroup;
+			children = (
+				1239642E64BD4BEA21F39B371113AFD5 /* Frameworks */,
+				FF65F6030EF13B9B45E45CEF9DFB7C37 /* Support Files */,
+			);
+			name = OLibffi;
+			path = OLibffi;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				94A2910CAB13841F6C9265988D8B6AD9 /* Pods */,
+				4884DA91753FE15FBCBB691AD520D02C /* Pods */,
 				16188AFBADEFFBF96C0221222D28B71B /* Products */,
 				A4C72304DDA2DE977AFE5129547F67D8 /* Targets Support Files */,
 			);
@@ -187,6 +163,16 @@
 			);
 			name = "Pods-OCDemo";
 			path = "Target Support Files/Pods-OCDemo";
+			sourceTree = "<group>";
+		};
+		FF65F6030EF13B9B45E45CEF9DFB7C37 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CB061F712ADAA59EA9D3B268FDEE5B1 /* OLibffi.debug.xcconfig */,
+				CC6C5750838F495E293519354DC42C93 /* OLibffi.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OLibffi";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,7 +297,7 @@
 /* Begin XCBuildConfiguration section */
 		09BBF0F8B10D30AA8998EFB80BF7A9F5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 346C1BAD7227B82E897FDE1EE70FF4A8 /* OLibffi.release.xcconfig */;
+			baseConfigurationReference = CC6C5750838F495E293519354DC42C93 /* OLibffi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -329,7 +315,7 @@
 		};
 		12DDEBF5AE31A139BFE3CAF992DD7FB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 358569D4D38E22F4D7034A158FB4EFE3 /* OLibffi.debug.xcconfig */;
+			baseConfigurationReference = 8CB061F712ADAA59EA9D3B268FDEE5B1 /* OLibffi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_WEAK = NO;

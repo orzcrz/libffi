@@ -8,12 +8,6 @@
 
 #import "ViewController.h"
 
-#include "ffi.h"
-#import "ffi.h"
-#import <OLibffi/ffi.h>
-#import "OLibffi.h"
-#include <OLibffi/OLibffi.h>
-
 @import OLibffi;
 
 @interface ViewController ()
