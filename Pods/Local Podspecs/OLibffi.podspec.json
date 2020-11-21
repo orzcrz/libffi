@@ -18,7 +18,8 @@
     "ios": "10.0"
   },
   "requires_arc": true,
-  "vendored_frameworks": "OLibffi/OLibffi.framework",
+  "source_files": "Classes/*.h",
+  "vendored_libraries": "Classes/libffi.a",
   "pod_target_xcconfig": {
     "VALID_ARCHS": "x86_64 arm64"
   }

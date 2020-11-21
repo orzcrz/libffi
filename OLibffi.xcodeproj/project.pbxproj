@@ -6,6 +6,20 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		D297DA8B2568C5080096BD54 /* BuildFramework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D297DA8E2568C5080096BD54 /* Build configuration list for PBXAggregateTarget "BuildFramework" */;
+			buildPhases = (
+				D297DA932568C50E0096BD54 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = BuildFramework;
+			productName = BuildFramework;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		439D42998C00CC76CA082D0C /* libPods-SwiftDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5665E8854EBA604112700BB /* libPods-SwiftDemo.a */; };
 		A7EE7E6C33963B8BEDD2D190 /* libPods-OCDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 907E904C40C8D02D07B2C955 /* libPods-OCDemo.a */; };
@@ -69,7 +83,7 @@
 		D295A8F625679ECB00E0EC88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D295A9282567A0B100E0EC88 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 		D295A9292567A0B100E0EC88 /* OLibffi.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = OLibffi.podspec; sourceTree = SOURCE_ROOT; };
-		D295A92A2567A0B100E0EC88 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		D295A92A2567A0B100E0EC88 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D295A92B2567A0B100E0EC88 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		D2B68D762534049E0079FDB3 /* OLibffi-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OLibffi-Info.plist"; sourceTree = "<group>"; };
 		D5665E8854EBA604112700BB /* libPods-SwiftDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -307,6 +321,9 @@
 					D295A8E525679ECA00E0EC88 = {
 						CreatedOnToolsVersion = 12.1;
 					};
+					D297DA8B2568C5080096BD54 = {
+						CreatedOnToolsVersion = 12.1;
+					};
 				};
 			};
 			buildConfigurationList = D27A8A1725203F1A006A6125 /* Build configuration list for PBXProject "OLibffi" */;
@@ -325,6 +342,7 @@
 				D27A8A1C25203F1A006A6125 /* OLibffi */,
 				D295A8C625679EBE00E0EC88 /* OCDemo */,
 				D295A8E525679ECA00E0EC88 /* SwiftDemo */,
+				D297DA8B2568C5080096BD54 /* BuildFramework */,
 			);
 		};
 /* End PBXProject section */
@@ -403,6 +421,23 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
+		};
+		D297DA932568C50E0096BD54 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "targetName=\"OLibffi\"\noutput=\"${SRCROOT}/Frameworks\"\n\nrm -rf \"${output}\"\nmkdir -p \"${output}\"\n\nconfig=Release\nxcodebuild -target \"${targetName}\" ONLY_ACTIVE_ARCH=NO ARCHS=arm64 -configuration ${config} -sdk iphoneos BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n\nxcodebuild -target \"${targetName}\" ONLY_ACTIVE_ARCH=NO ARCHS=x86_64 -configuration ${config} -sdk iphonesimulator BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n\niosFW=\"${BUILD_DIR}/${config}-iphoneos/${targetName}.framework\"\nsimFW=\"${BUILD_DIR}/${config}-iphonesimulator/${targetName}.framework\"\n\ncp -R ${iosFW} \"${output}/\"\n\nlipo -create \"${simFW}/${targetName}\" \"${iosFW}/${targetName}\" -output \"${output}/${targetName}.framework/${targetName}\"\n\n# 判断build文件夹是否存在，存在则删除\nif [ -d \"${SRCROOT}/build\" ]\nthen\nrm -rf \"${SRCROOT}/build\"\nfi\n\n#打开目标文件夹\nopen \"${output}\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -752,6 +787,24 @@
 			};
 			name = Release;
 		};
+		D297DA8C2568C5080096BD54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97LF6BB4ZK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D297DA8D2568C5080096BD54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 97LF6BB4ZK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -787,6 +840,15 @@
 			buildConfigurations = (
 				D295A8F825679ECB00E0EC88 /* Debug */,
 				D295A8F925679ECB00E0EC88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D297DA8E2568C5080096BD54 /* Build configuration list for PBXAggregateTarget "BuildFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D297DA8C2568C5080096BD54 /* Debug */,
+				D297DA8D2568C5080096BD54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
